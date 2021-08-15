@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .a{
+            margin-left: 20px;
+        }
+    </style>
+    <style>
+        p.ident{
+            padding-left: 1em }
+    </style>
+    <style>
+        p.colscuoi{
+            font-size: 15px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Khảo sát khách hàng</title>
+</head>
+<body>
+<form method="get" class="thai">
+    <h2>Market Rearch Survey</h2>
+    <p>Please take a few moments to complete this satisfaction survey</p>
+    <hr>
+    <p><strong>What is your yearly income range?</strong></p>
+    <select>
+        <option>18-24</option>
+        <option>25-34</option>
+        <option>35-50</option>
+        <option>50+</option>
+    </select>
+    <p><b>What is your yearly income range</b></p>
+    <select>
+        <option>$0 - $25,000</option>
+        <option>$25,001 - $50,000</option>
+        <option>$50,001 - $100,000</option>
+        <option>100,000+</option>
+    </select>
+    <p><b>Gender Identity</b></p>
+    <input type="radio" name="sex" value="Male">Male<br>
+    <input type="radio" name="sex" value="Female">Female<br>
+    <input type="radio" name="sex" value="Nonbinary">Nonbinary<br>
+    <input type="radio" name="sex" value="Other">Other<br>
+<!--    <textarea name=" " rows="3" cols="10"></textarea>-->
+    <input class="a" type="text" name="other">
+    <p><b>Which of the following products have your purchased in the last 2 month. Please check all that apply.</b></p>
+    <input type="checkbox" name="products" value="Product 1">Product 1<br>
+    <input type="checkbox" name="products" value="Product 2">Product 2<br>
+    <input type="checkbox" name="products" value="Product 3">Product 3<br>
+    <p><b>How often woule you use our new prodcut?</b></p>
+    <input type="radio" name="use" value="Daily">Daily<br>
+    <input type="radio" name="use" value="Weekly">Weekly<br>
+    <input type="radio" name="use" value="Monthly">Monthly<br>
+    <p><b>What would you pay for the new product?</b></p>
+    <p>$ <input type="text" name="Dollar"size="10" value="">.<input type="text" name="cent" size="1" value=""><br>
+        &nbsp;&nbsp;&nbsp;Dollars&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cent</p>
+    <p><b>What features would you like to see in the new product.</b><br>
+        <textarea name="feature" rows="4" cols="250"></textarea>
+    </p>
+    <p class="colscuoi">Please rate your level of agreement with the following statements.</p>
+
+</form>
+</body>
+</html>
